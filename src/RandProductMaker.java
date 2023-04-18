@@ -137,7 +137,7 @@ public class RandProductMaker extends JFrame {
             double cost = Double.parseDouble(costTF.getText());
             return true;
         }
-        catch (NumberFormatException ex){
+        catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(null, "Enter a valid cost.");
             return false;
         }
